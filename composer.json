@@ -1,0 +1,14 @@
+{
+  "name": "jobject/worker-api",
+  "require": {
+    "php": "^7.4",
+    "ext-json": "^7.4",
+    "guzzlehttp/guzzle": "~6.0",
+    "psr/log": "~1.1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Worker\\": "src/"
+    }
+  }
+}
